@@ -16,6 +16,36 @@ h1{
     padding: 0;
 }
 
+table {
+    width: 100%;
+    border-spacing: 0, 4px;
+    border-collapse: separate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Year header rows (e.g., 2026, 2025) */
+table th {
+    background-color: #2d2d2d;
+    color: #e6e6e6;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Item rows */
+table td {
+    background-color: #262626;
+    color: #dcdcdc;
+    padding: 8px;
+}
+
+table a {
+    color: #9bd6ff;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
 
 p{
     color: #ffffff;
