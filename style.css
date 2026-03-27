@@ -1,5 +1,5 @@
 body{
-    background-color: #212121;
+    background-color: #1e1e1e;
 }
 
 h1{
@@ -10,22 +10,21 @@ h1{
 
 .container {
     display: grid;
-    grid-template-columns: 0.25fr 2fr; /*TODO adjust margains to desirable stuff*/
+    grid-template-columns: 0.25fr 2fr 0.25fr;
     gap: 2rem;
     margin: 0 20%;  
     padding: 0;
 }
 
 
-/* all testing purposes, to be refactored later */
 p{
-    color: #eea575;
+    color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
 
 h2{ 
-    color: #eea575;
+    color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
