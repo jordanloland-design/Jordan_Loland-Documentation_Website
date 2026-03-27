@@ -1,5 +1,5 @@
 body{
-    background-color: #383636;
+    background-color: #212121;
 }
 
 h1{
@@ -7,3 +7,26 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 0.25fr 2fr; /*TODO adjust margains to desirable stuff*/
+    gap: 2rem;
+    margin: 0 20%;  
+    padding: 0;
+}
+
+
+/* all testing purposes, to be refactored later */
+p{
+    color: #eea575;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h2{ 
+    color: #eea575;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
