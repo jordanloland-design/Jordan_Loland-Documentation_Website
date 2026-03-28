@@ -1,0 +1,78 @@
+/*style.css*/
+
+/*------------text in content section styling----------*/
+
+body{
+    background-color: #1e1e1e;
+}
+
+h1{
+    color: #f1efc7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h2{ 
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h3{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+figcaption{
+    color: #ffffff;
+    text-align: justify;
+    font-style: italic;
+}
+
+/*------------------page layout grid styling------------------*/
+
+.container {
+    display: grid;
+    grid-template-columns: 0.25fr 2fr 0.25fr;
+    gap: 2rem;
+    margin: 0 20%;  
+    padding: 0;
+}
+
+/*---------------------sidebar nav styling-------------------*/
+
+table {
+    width: 100%;
+    border-spacing: 0, 4px;
+    border-collapse: separate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table th {
+    background-color: #2d2d2d;
+    color: #e6e6e6;
+    padding: 8px;
+    text-align: left;
+}
+
+table td {
+    background-color: #262626;
+    color: #dcdcdc;
+    padding: 8px;
+}
+
+table a {
+    color: #9bd6ff;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
