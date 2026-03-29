@@ -22,15 +22,21 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>Jordan Loland<br>Written 2026/03/27<p>
             <h3>Introduction</h3>
             <p>I first was introduced to the idea of homelabbing when running out of space in my free google drive. Searching for other services that could
-            host my data for cheaper I stumbled down the rabbit hole of homelabbing. This intrigued me as I already had an old mini pc (Intel NUC 2017, check if true lol)
+            host my data for cheaper I stumbled down the rabbit hole of homelabbing. This intrigued me as I already had an old mini pc (NUC6CAYS)
             sitting collecting dust in my room. This combination of frustration and cheapness led me to my new project and hobby of homelabbing</p>
             <h3>Hardware</h3>
             <figure>
                 <img src="NUC.jpg" alt="content failed to load">
                 <figcaption> Intel NUC used in my homelab </figcaption>
             </figure>
-            <p>TODO add specs*** Admittedly poor specs for a proper homelab setup, but for my purposes it is adequate. For future I may look at upgrading 
-            components, but it may be worth it to get a whole new system entirely and use this one as a node running less intensive programs</p>
+            <p>2gb DDR3L RAM, Intel Celeron J3455 quad-core processor, and 32gb eMMC sotrage, admittedly very poor specs for a proper homelab setup, but for my purposes
+            it is adequate. For future I may look at upgrading components, but it may be worth it to get a whole new system entirely and use this one as a node running
+            less intensive programs. The biggest advantage of the NUC is its very low power consumtion. From my measurements, under normal operation it draws as little 
+            as 7 watts.</p>
+            <h3>Software</h3>
+            <p>My homelab runs on proxmox. I decided on proxmox due to it being open source, and its immense number of features. So far I only have one VM hosting
+            Homeassistant, and a samba server for file hosting and organizaton, but soon to be more. My next project is going to be adding a media server like Jellyfin,
+            though I am going to need an external SSD or maybe configure a different machine into a NAS for its storage demands.</p>
         `,
         'temperature sensor': `
             <h2>Second item - 2026</h2>

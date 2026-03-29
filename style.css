@@ -36,6 +36,13 @@ figcaption{
     font-style: italic;
 }
 
+figure{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-style: italic;
+}
+
 /*------------------page layout grid styling------------------*/
 
 .container {
