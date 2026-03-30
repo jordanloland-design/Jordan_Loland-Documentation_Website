@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
             sitting collecting dust in my room. This combination of frustration and cheapness led me to my new project and hobby of homelabbing</p>
             <h3>Hardware</h3>
             <figure>
-                <img src="NUC.jpg" alt="content failed to load">
+                <img src="NUC.jpg" width="50%" alt="content failed to load">
                 <figcaption> Intel NUC used in my homelab </figcaption>
             </figure>
             <p>2gb DDR3L RAM, Intel Celeron J3455 quad-core processor, and 32gb eMMC sotrage, admittedly very poor specs for a proper homelab setup, but for my purposes

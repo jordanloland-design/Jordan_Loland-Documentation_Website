@@ -32,15 +32,21 @@ h3{
 
 figcaption{
     color: #ffffff;
-    text-align: justify;
+    text-align: center;
     font-style: italic;
 }
 
 figure{
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
+    text-align: center;
     font-style: italic;
+}
+
+img {
+  display: block; /* Ensure block-level behavior */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*------------------page layout grid styling------------------*/
