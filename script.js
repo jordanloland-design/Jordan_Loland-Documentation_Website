@@ -42,9 +42,21 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2>Second item - 2026</h2>
             <p>Here is some second-item content for 2026.</p>
         `,
+        pedal: `
+            <h2>Website</h2>
+            <p>Jordan Loland<br>Written 2026/04/## TODO<p>
+            <h3>Introduction</h3>
+        `,
         website: `
-            <h2>Third item - 2026</h2>
-            <p>Content for the third item goes here.</p>
+            <h2>Website</h2>
+            <p>Jordan Loland<br>Written 2026/04/## TODO<p>
+            <h3>Introduction</h3>
+            <p>This website you are looking at! For a long while I was looking for a way of documenting</p>
+        `,
+        aero:`
+            <h2>UVIC Aero</h2>
+            <p>Jordan Loland<br>Written 2026/04/## TODO<p>
+            <h3>Introduction</h3>
         `
         // Add more articles here
     };
