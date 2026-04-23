@@ -61,6 +61,12 @@ img {
 
 /*---------------------sidebar nav styling-------------------*/
 
+.sidebar {
+    position: sticky;
+    top: 20px;
+    align-self: start;
+}
+
 table {
     width: 100%;
     border-spacing: 0, 4px;

@@ -1,5 +1,5 @@
 //script.js
-//handles all 
+//handles all interactive features
 
 document.addEventListener("DOMContentLoaded", () => {
     const contentArea = document.getElementById("content-area");
@@ -39,19 +39,53 @@ document.addEventListener("DOMContentLoaded", () => {
             though I am going to need an external SSD or maybe configure a different machine into a NAS for its storage demands.</p>
         `,
         'temperature sensor': `
-            <h2>Second item - 2026</h2>
-            <p>Here is some second-item content for 2026.</p>
+            <h2>Temperature Sensor</h2>
+            <p>Jordan Loland <br> Written 2026/04/23</p>
+            <h3>Introduction</h3>
+            <p>This project ties in with my Homelab setup, particularly Homeassistant. This project was created to solve a particular problem I have during winter. If I leave 
+            for school and keep my window shut, when I get back my room is stuffy and hot, alternatively, if I leave my window open while at school, when I return my room 
+            is ice cold. The following is the documentation of my solution.</p>
+            <h3>Parts List</h3>
+            <table>
+            <tbody>
+            <tr><th>Part</th><th>Cost</th><th>Quantity</th><th>Link</th></tr>
+            <tr><td>AHT20+BMP280 Temperature, pressure, and humidity sensor</td><td>$0.99</td><td>1</td><td><a href="https://www.aliexpress.com/item/1005009495809337.html?spm=a2g0o.productlist.main.2.29af53af7hBdtT&algo_pvid=29856793-769d-45ef-b856-f1e1c5bd4df9&algo_exp_id=29856793-769d-45ef-b856-f1e1c5bd4df9-1&pdp_ext_f=%7B%22order%22%3A%22283%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%219.42%213.31%21%21%2146.00%2116.16%21%4021032f3717769788951084942e3bca%2112000049279743827%21sea%21CA%216768298602%21ABX%211%210%21n_tag%3A-29910%3Bd%3Aab7acfe6%3Bm03_new_user%3A-29895%3BpisId%3A5000000204872240&curPageLogUid=7R8ve9sTMoRO&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009495809337%7C_p_origin_prod%3A">AHT20+BMP280 Aliexpress</a></td></tr>
+            <tr><td>ESP32 WROOM-32 Development Board TYPE-C CH340C/ CP2102 </td><td>$3.88</td><td>1</td><td><a href="https://www.aliexpress.com/item/1005005953505528.html?spm=a2g0o.productlist.main.1.c6a774047Seq3g&algo_pvid=cbc93c96-7864-4887-8bcb-c7d34a002651&algo_exp_id=cbc93c96-7864-4887-8bcb-c7d34a002651-0&pdp_ext_f=%7B%22order%22%3A%2220149%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%215.83%211.59%21%21%2128.49%217.79%21%402101eede17769805864105450e34e9%2112000035007650505%21sea%21CA%216768298602%21ABX%211%210%21n_tag%3A-29910%3Bd%3Aab7acfe6%3Bm03_new_user%3A-29895%3BpisId%3A5000000203581376&curPageLogUid=ssscVs3PK4Pr&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005953505528%7C_p_origin_prod%3A">ESP32 Dev Board Aliexpress</a></td></tr>
+            <tr><td>400-Point Breadboard Kit Dupont Cable Jumper Wire</td><td>$3.99</td><td>1</td><td><a href = "https://www.aliexpress.com/item/1005006293202863.html?spm=a2g0o.productlist.main.21.6b605fbaJt9B9i&algo_pvid=db815ab2-223c-451f-8d0f-c4a78593964e&algo_exp_id=db815ab2-223c-451f-8d0f-c4a78593964e-20&pdp_ext_f=%7B%22order%22%3A%2232%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CAD%2114.37%213.35%21%21%2170.19%2116.37%21%40210328c017769809349347908eb74e%2112000036639371043%21sea%21CA%216768298602%21ABX%211%210%21n_tag%3A-29910%3Bd%3Aab7acfe6%3Bm03_new_user%3A-29895%3BpisId%3A5000000204872240&curPageLogUid=nbKRgOIcMy3i&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006293202863%7C_p_origin_prod%3A">Breadboard & Jumper Wires Kit Aliexpress</a></td></tr>
+            </tbody>
+            </table>
+            <h3>Setup</h3>
+            <figure>
+                <img src="TempSens.jpg" width="50%" alt="content failed to load">
+                <figcaption>Sensor Breadboard Wiring</figcaption>
+            </figure>
+            <p></p>
         `,
         pedal: `
-            <h2>Website</h2>
+            <h2>Breadboarded Guitar Pedal</h2>
             <p>Jordan Loland<br>Written 2026/04/## TODO<p>
             <h3>Introduction</h3>
+            <p></p>
+            <h3>componenets list</h3>
+            <p>TODO finish add pics and parts list</p>
         `,
         website: `
             <h2>Website</h2>
-            <p>Jordan Loland<br>Written 2026/04/## TODO<p>
+            <p>Jordan Loland<br>Written 2026/04/22<p>
             <h3>Introduction</h3>
-            <p>This website you are looking at! For a long while I was looking for a way of documenting</p>
+            <p>This website you are looking at! For a long while I was looking for a way of documenting my projects in a fun and interactive way. I wasn't a huge fan of
+            Linkdin, and github was too tailored to software for my needs, so I finally landed on making my own website. I've enjoyed the challenge of learning HTML, 
+            Javascript, and CSS to have full creative control of my portfolio's layout and feel.</p>
+            <h3>Self Leaning New Languages</h3>
+            <p>For this project I built everything with CSS, Javascript, and HTML by hand, which meant a lot of self learning to learn the languages. For CSS and HTML,
+            I used W3School's open source lessons to develop enough knowledge to put this website together. I found these to be really helpful because each chapter had 
+            an interactive recap at the end that would have you building something based on what you learned. Javascript was slightly easier to pick up as I had taken a 
+            class on Java. The similar syntax was easy to pick up on, but the frontend web development part was foreign to me. Since what I wanted for my website had very
+            minimal interactive features, I ended up mostly using stack overflow to cobble together something functional using what I observed on other's posts TODO*site needed*.
+            Overall, learning these new languages was a ton of fun and a good way to figure out how to self learn. I am proud of the speed I was able to pick these up 
+            and am looking forward to using these skills in future projects.
+            <h3>Self Hosting and Challenges</h3>
+            <p>TODO</p>
         `,
         aero:`
             <h2>UVIC Aero</h2>
