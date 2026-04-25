@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="TempSens.jpg" width="50%" alt="content failed to load">
                 <figcaption>Sensor Breadboard Wiring</figcaption>
             </figure>
-            <p></p>
+            <p>I used </p>
         `,
         pedal: `
             <h2>Breadboarded Guitar Pedal</h2>
@@ -94,6 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
         `
         // Add more articles here
     };
+
+    contentArea.innerHTML = articles.home;
 
     // Click handler for sidebar links
     document.querySelectorAll("[data-article]").forEach(link => {
