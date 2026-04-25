@@ -10,6 +10,11 @@ h1{
     color: #f1efc7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
 }
 
 p{
@@ -59,13 +64,13 @@ img {
     padding: 0;
 }
 
-/*---------------------sidebar nav styling-------------------*/
-
 .sidebar {
     position: sticky;
     top: 20px;
     align-self: start;
 }
+
+/*---------------------sidebar nav styling-------------------*/
 
 table {
     width: 100%;
