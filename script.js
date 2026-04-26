@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>Jordan Loland<br>Written 2026/03/27</p>
             <h3>Introduction</h3>
             <p>I first was introduced to the idea of homelabbing when running out of space in my free google drive. Searching for other services that could
-            host my data for cheaper I stumbled down the rabbit hole of homelabbing. This intrigued me as I already had an old mini pc (NUC6CAYS)
+            host my data for cheaper I stumbled down the rabbit hole of homelabbing. This intrigued me as I already had an old mini PC (NUC6CAYS)
             sitting collecting dust in my room. This combination of frustration and cheapness led me to my new project and hobby of homelabbing</p>
             <h3>System Goals</h3>
             <p>The initial goal of this project was to create a homelab hosting a samba server to gain more storage space that I could access through multiple
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>admittedly very poor specs for a proper homelab setup, but for my purposes it is adequate. The biggest advantage of the NUC is its very low power 
             consumption. From my measurements, under normal operation it draws as little as 7 watts.</p>
             <h3>Software</h3>
-            <p>My homelab runs on proxmox. I decided on proxmox due to it being open source, great virtualization support, and being very customizable. Currently I have 
+            <p>My homelab runs on Proxmox. I decided on Proxmox due to it being open source, great virtualization support, and being very customizable. Currently I have 
             a VM for hosting HomeAssistant, and another for a samba file organization server.</p>
             <h3>Results</h3>
             <p>The homelab now works as a Samba server and a HomeAssistant hub, allowing me to store and organize files while also allowing smart device control and 
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>Future Work</h3>
             <p>I have only scratched the surface on what I want to do with my homelab so far and have many plans for what it will do in the future. A few of them 
             are upgrading all components to be able to run more intensive programs, adding tailscale on homeassistant and other applications to be able to monitor
-            outside the range of my local network, adding a media server such as plex or jellyfin, and many more. I am excited for the future of my homelab
+            outside the range of my local network, adding a media server such as Plex or Jellyfin, and many more. I am excited for the future of my homelab
             experimenting and will be sure to update this page as more projects are completed.</p>
         `,
         'temperature sensor': `
