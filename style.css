@@ -60,6 +60,15 @@ img {
   margin-right: auto;
 }
 
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid gainsboro;
+    margin: 1em 0;
+    padding: 0;
+}
+
 /*------------------page layout grid styling------------------*/
 
 .container {

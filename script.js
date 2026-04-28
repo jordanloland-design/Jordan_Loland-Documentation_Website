@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Store articles here
     const articles = {
+
+        /*---------------------------------------------Homepage---------------------------------------------------*/
+
         home: `
             <h2>Welcome to my website!</h2>
             <p>Welcome to my website! This is a personal documentation site to share and store all my engineering projects.
@@ -17,6 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
             microcontrollers, and more.</p>
         
         `,
+
+        /*-------------------------------------------Projects Here------------------------------------------------*/
+
         homelab: `
             <h2>Homelab Setup</h2>
             <p>Jordan Loland<br>Written 2026/03/27</p>
@@ -132,12 +138,28 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>GitHub</h3>
             <p>here is <a href="https://github.com/jordanloland-design/Jordan_Loland-Documentation_Website">the link</a> to my GitHub repo for this website.</p>
         `,
+
+        /*-------------------------------------------Clubs / Work here------------------------------------------------*/
+
         aero:`
             <h2>UVIC Aero</h2>
-            <p>Jordan Loland<br>Written 2026/04/## TODO</p>
-            <h3>Introduction</h3>
+
+            <h3>Crimping - 2026/04/04</h3>
+
+            <hr>
+
+            <h3>Soldering / First Jobs - 2026/03/11</h3>
+            <p>I joined UVIC aero right before competition, so unfortunatly I did not attend this competition or much of the early design phase, but there is still work to be done. My first 
+            tast was to retrofit some of the older GPS modules with new connectors so that they fit our flight controller. The older GPS have 6 wires and the flight controller we use has a 
+            10 pin input. To correctly map them I had to go to documentation sites to review where solder each wire to line up with the flight controller. This was my first time actually 
+            soldering and was difficult at first due to the tiny 10 pin connector, but eventually I got the hang of it.</p>
+            <figure>
+                <img src="Solder.jpg", width="80%", alt="content failed to load">
+                <figcaption>first solder attempt on 10 pin connector</figcaption>
+            </figure>
+
         `
-        // Add more articles here
+
     };
 
     contentArea.innerHTML = articles.home;
