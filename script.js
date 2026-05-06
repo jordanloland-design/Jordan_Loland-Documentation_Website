@@ -11,14 +11,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
         home: `
             <h2>Welcome to my website!</h2>
-            <p>Welcome to my website! This is a personal documentation site to share and store all my engineering projects.
-            Here, you can find my projects, notes, and any other content related to my engineering journey, feel free to explore 
-            and check back often for updates and insights into my engineering endeavors.</p>
+            <p>Welcome! This is a personal documentation site to share and store all my engineering projects and experience.
+            Here, you can find my projects, notes, club involvement, and any other content related to my engineering journey, feel free to explore 
+            and check back often for updates and insights into my engineering endeavours.</p>
             <h2>About Me</h2>
-            <p>My name is Jordan Loland, and I am currently studying electrical engineering at the University of Victoria. I chose this path
-            because of my passion for creating, experimenting, and learning new skills. I have experience in circuit design, programming, motor drives,
-            microcontrollers, and more.</p>
-        
+            <p>I am currently studying Electrical Engineering at the University of Victoria. I chose engineering because of my passion for creating,
+            experimenting, and continuously learning. My choice of discipline was based on my interest of all things related to electricity and automation.
+            From microcontrollers to large scale power systems I find the way people generate, control, and manipulate energy fascinating. Through projects, clubs, and 
+            course work I have gained experience in circuit design and testing, programming, microcontrollers, motor drives, and more.</p>
+            <h2>Current Involvement</h2>
+            <p>I am currently working with UVIC Aero on the electrical sub team, working towards competition for the 2027 *TODO get info*. For personal
+            projects I am currently working on designing and building my own guitar pedal from scratch.</p>
+            <h2>Beyond Engineering</h2>
+            <p>Outside of engineering I enjoy cooking, playing music, all kinds of sports, backpacking, and hands on creative projects.</p>
+            <figure>
+                <img src="Flatiron.jpg" alt="content failed to load" width="80%">
+                <figcaption>Hiking Flatiron TODO get better picture<figcaption>
+            </figure>
         `,
 
         /*-------------------------------------------Projects Here------------------------------------------------*/
@@ -56,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
              estimate assuming my homelab will be running 24/7 at 7 watts would cost me around $7 annually making the system more cost effective than cloud storage solutions.</p>
             <h3>Future Work</h3>
             <p>I have only scratched the surface on what I want to do with my homelab so far and have many plans for what it will do in the future. A few of them 
-            are upgrading all components to be able to run more intensive programs, adding tailscale on homeassistant and other applications to be able to monitor
+            are upgrading all components to be able to run more intensive programs, adding Tailscale on homeassistant and other applications to be able to monitor
             outside the range of my local network, adding a media server such as Plex or Jellyfin, and many more. I am excited for the future of my homelab
             experimenting and will be sure to update this page as more projects are completed.</p>
         `,
@@ -104,8 +113,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>Jordan Loland<br>Written 2026/04/## TODO</p>
             <h3>Introduction</h3>
             <p></p>
-            <h3>componenets list</h3>
-            <p>TODO finish add pics and parts list</p>
+            <h3>components list</h3>
+            <p>TODO finish add pics and list</p>
         `,
         website: `
             <h2>Website</h2>
@@ -144,15 +153,14 @@ document.addEventListener("DOMContentLoaded", () => {
         aero:`
             <h2>UVIC Aero</h2>
 
-            <h3>Crimping - 2026/04/04</h3>
-
             <hr>
 
             <h3>Soldering / First Jobs - 2026/03/11</h3>
-            <p>I joined UVIC aero right before competition, so unfortunatly I did not attend this competition or much of the early design phase, but there is still work to be done. My first 
-            tast was to retrofit some of the older GPS modules with new connectors so that they fit our flight controller. The older GPS have 6 wires and the flight controller we use has a 
-            10 pin input. To correctly map them I had to go to documentation sites to review where solder each wire to line up with the flight controller. This was my first time actually 
-            soldering and was difficult at first due to the tiny 10 pin connector, but eventually I got the hang of it.</p>
+            <p>I joined UVIC Aero shortly before competition season, so I unfortunately missed much of the early design phase and the competition itself. However, there was still work to be done that I 
+            could help with. My first task was to retrofit some of the older GPS modules with new connectors so that they fit our flight controller. The legacy GPS modules have 6-wire output and the flight 
+            controller we use has a 10 pin input. To correctly map them I had to go to documentation sites to review where solder each wire to line up with the flight controller pinout. This was my
+            first introduction to soldering, and a throw into the deep end at that. The pins were incredibly small, but with some tips from our electrical lead and a lot of solder wick I began to 
+            get the hang of it. By the 5th and final adapter, I was noticeably faster and more proficient in my soldering</p>
             <figure>
                 <img src="Solder.jpg", width="80%", alt="content failed to load">
                 <figcaption>first solder attempt on 10 pin connector</figcaption>
