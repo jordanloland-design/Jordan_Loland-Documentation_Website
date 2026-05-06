@@ -89,7 +89,7 @@ hr{
 
 table {
     width: 100%;
-    border-spacing: 0, 4px;
+    border-spacing: 0 4px;
     border-collapse: separate;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
