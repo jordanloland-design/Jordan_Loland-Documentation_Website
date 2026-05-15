@@ -20,13 +20,13 @@ document.addEventListener("DOMContentLoaded", () => {
             From microcontrollers to large scale power systems I find the way people generate, control, and manipulate energy fascinating. Through projects, clubs, and 
             course work I have gained experience in circuit design and testing, programming, microcontrollers, motor drives, and more.</p>
             <h2>Current Involvement</h2>
-            <p>I am currently working with UVIC Aero on the electrical sub team, working towards competition for the 2027 *TODO get info*. For personal
-            projects I am currently working on designing and building my own guitar pedal from scratch.</p>
+            <p>I am currently working with UVIC Aero on the electrical sub team, working towards competition for the Aerial Evolution Association of Canada 2027 Student 
+            Competition. For personal projects I am currently working on designing and building my own guitar pedal from scratch.</p>
             <h2>Beyond Engineering</h2>
             <p>Outside of engineering I enjoy cooking, playing music, all kinds of sports, backpacking, and hands on creative projects.</p>
             <figure>
                 <img src="Flatiron.jpg" alt="content failed to load" width="80%">
-                <figcaption>Hiking Flatiron TODO get better picture<figcaption>
+                <figcaption>Me hiking the Flatiron and Needle Peak Trail</figcaption>
             </figure>
         `,
 
@@ -101,7 +101,12 @@ document.addEventListener("DOMContentLoaded", () => {
             I used the temperature sensor on my multimeter and found that the ESP32 was producing a lot of heat. My original wiring had the sensor right next to the ESP32, causing it to pick up
             the heat of the ESP32. A simple solution was to move the sensor farther away from the ESP32 on the Breadboard. After the change the readings fell to expected levels</p>
             <h3>Results</h3>
-            <p>TODO add screenshots from Homeassistant app</p>
+            <figure>
+                <img src="before.jpg" alt="Content Failed to Load" width="80%">
+                <img src="after.jpg" alt="Content Failed to Load" width="80%">
+                <figcaption>Before (top) and after (Bottom) adjustment</figcaption>
+            </figure>
+            <p>These are the results from the sensor before and after the sensor repositioning</p>
             <h3>Future Work / Still in Progress</h3>
             <p>Currently I have only got this project to the stage of acting as a sensor, now I need to design something capable of opening and closing my window. I have done some looking
             into different solutions to automate this. The one I am currently perusing is to 3D print an apparatus to hold a threaded screw with another 3d printed block fixed to both the
