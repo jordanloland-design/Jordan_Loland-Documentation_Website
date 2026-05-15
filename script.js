@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2>Beyond Engineering</h2>
             <p>Outside of engineering I enjoy cooking, playing music, all kinds of sports, backpacking, and hands on creative projects.</p>
             <figure>
-                <img src="Flatiron.jpg" alt="content failed to load" width="80%">
+                <img src="Pictures/Flatiron.jpg" alt="content failed to load" width="80%">
                 <figcaption>Me hiking the Flatiron and Needle Peak Trail</figcaption>
             </figure>
         `,
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             was paying for, with some extra services I could integrate as well such as HomeAssistant.</p>
             <h3>Hardware</h3>
             <figure>
-                <img src="NUC.jpg" width="80%" alt="content failed to load">
+                <img src="Pictures/NUC.jpg" width="80%" alt="content failed to load">
                 <figcaption> Intel NUC used in my homelab </figcaption>
             </figure>
             <ul>
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </table>
             <h3>Setup</h3>
             <figure>
-                <img src="TempSens.jpg" width="80%" alt="content failed to load">
+                <img src="Pictures/TempSens.jpg" width="80%" alt="content failed to load">
                 <figcaption>Sensor Breadboard Wiring</figcaption>
             </figure>
             <p>To build this I used ESPHome, an add on in the homeassistant app to allow communication between ESP32 output and my homelab. Once given the board and sensor specifications,
@@ -102,8 +102,8 @@ document.addEventListener("DOMContentLoaded", () => {
             the heat of the ESP32. A simple solution was to move the sensor farther away from the ESP32 on the Breadboard. After the change the readings fell to expected levels</p>
             <h3>Results</h3>
             <figure>
-                <img src="before.jpg" alt="Content Failed to Load" width="80%">
-                <img src="after.jpg" alt="Content Failed to Load" width="80%">
+                <img src="Pictures/before.jpg" alt="Content Failed to Load" width="80%">
+                <img src="Pictures/after.jpg" alt="Content Failed to Load" width="80%">
                 <figcaption>Before (top) and after (Bottom) adjustment</figcaption>
             </figure>
             <p>These are the results from the sensor before and after the sensor repositioning</p>
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>My goal with this project was a minimal project documentation site where users could scroll through and view my projects, with me being able to easily update and add entries.
             I took visual inspiration from a lot of different personal websites I visited during the planning of this site, in particular, Ed Grochowski's website</p>
             <figure>
-                <img src="Webpic.jpg" width="80%" alt="content failed to load">
+                <img src="Pictures/Webpic.jpg" width="80%" alt="content failed to load">
                 <figcaption> <a href="https://www.edgrochowski.com/">Ed Grochowski's webpage</a></figcaption>
             </figure>
             <p>I really liked the simple sidebar with links to update the content area, so I attempted to emulate that same kind of feel in mine. Another design goal was to
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
             first introduction to soldering, and a throw into the deep end at that. The pins were incredibly small, but with some tips from our electrical lead and a lot of solder wick I began to 
             get the hang of it. By the 5th and final adapter, I was noticeably faster and more proficient in my soldering</p>
             <figure>
-                <img src="Solder.jpg", width="80%", alt="content failed to load">
+                <img src="Pictures/Solder.jpg", width="80%", alt="content failed to load">
                 <figcaption>first solder attempt on 10 pin connector</figcaption>
             </figure>
 
