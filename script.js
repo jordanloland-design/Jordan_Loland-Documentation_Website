@@ -153,6 +153,14 @@ document.addEventListener("DOMContentLoaded", () => {
         aero:`
             <h2>UVIC Aero</h2>
 
+            <h3>More Retrofitting - 2026/03/20</h3>
+            <p>Today it was more retrofitting old GPS systems. This time less soldering and more crimping. I learned what it takes for a good crimp connection, and manually crimped pins onto each of 
+            the GPS's output wires. Only one GPS system needed to be updated like this this week.</p>
+            <figure>
+                <img src="crimping.jpg", width="80%", alt="content failed to load">
+                <figcaption>8 pin GPS with headers crimped on</figcaption>
+            </figure>
+
             <hr>
 
             <h3>Soldering / First Jobs - 2026/03/11</h3>
