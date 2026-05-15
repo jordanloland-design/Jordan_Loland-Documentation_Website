@@ -91,6 +91,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="Pictures/TempSens.jpg" width="80%" alt="content failed to load">
                 <figcaption>Sensor Breadboard Wiring</figcaption>
             </figure>
+            <pre>
+            Wiring Diagram:
+            ESP32 3.3V  --> Sensor VCC
+            ESP32 GND   --> Sensor GND
+            ESP32 GPIO21 --> Sensor SDA
+            ESP32 GPIO22 --> Sensor SCL
+            </pre>
             <p>To build this I used ESPHome, an add on in the homeassistant app to allow communication between ESP32 output and my homelab. Once given the board and sensor specifications,
             I wired the sensor to the board. This sensor uses I2C protocol, so I connected the serial data, and serial clock to the corresponding pins on the ESP32, along with ground and 
             3.3V. I then plugged the ESP32 board to flash the software onto it, making it work as a sensor in homeassistant. Once flashed I was able to unplug it and put it into a corner

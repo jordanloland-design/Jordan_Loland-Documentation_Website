@@ -60,6 +60,12 @@ img {
   margin-right: auto;
 }
 
+pre{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
 hr{
     display: block;
     height: 1px;
