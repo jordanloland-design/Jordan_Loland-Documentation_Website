@@ -158,11 +158,21 @@ document.addEventListener("DOMContentLoaded", () => {
         aero:`
             <h2>UVIC Aero</h2>
 
+            <h3>Power Harness - 2026/05/15</h3>
+            <p>Today I worked on the power harness for the drone. The power harness is the system of wires and connectors that distribute power from the battery to all the different electrical 
+            components of the drone. I learned about different wire gauges and how they handle current, and the system of connectors used to distribute power effectively and safely.
+            <figure>
+                <img src="pictures/power harness.jpg", width="80%", alt="content failed to load">
+                <figcaption>Small part of harness to split power to different components</figcaption>
+            </figure>
+
+            <hr>
+
             <h3>More Retrofitting - 2026/03/20</h3>
             <p>Today it was more retrofitting old GPS systems. This time less soldering and more crimping. I learned what it takes for a good crimp connection, and manually crimped pins onto each of 
-            the GPS's output wires. Only one GPS system needed to be updated like this this week.</p>
+            the GPS's output wires. Only one GPS system needed to be updated this week.</p>
             <figure>
-                <img src="crimping.jpg", width="80%", alt="content failed to load">
+                <img src="pictures/crimping.jpg", width="80%", alt="content failed to load">
                 <figcaption>8 pin GPS with headers crimped on</figcaption>
             </figure>
 
