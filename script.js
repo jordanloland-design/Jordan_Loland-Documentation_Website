@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>Today it was more retrofitting old GPS systems. This time less soldering and more crimping. I learned what it takes for a good crimp connection, and manually crimped pins onto each of 
             the GPS's output wires. Only one GPS system needed to be updated this week.</p>
             <figure>
-                <img src="Pictures/Crimping.jpg", width="80%", alt="content failed to load">
+                <img src="Pictures/crimping.jpg", width="80%", alt="content failed to load">
                 <figcaption>8 pin GPS with headers crimped on</figcaption>
             </figure>
 
